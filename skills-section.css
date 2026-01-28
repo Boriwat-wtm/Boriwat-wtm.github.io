@@ -1,0 +1,18 @@
+/* Skills Section Standalone */
+#skills {
+    background: rgba(30, 41, 59, 0.3);
+}
+
+#skills .section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+#skills .skills-tags-compact {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.7rem;
+    justify-content: center;
+    max-width: 900px;
+    margin: 0 auto;
+}

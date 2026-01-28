@@ -1,0 +1,12 @@
+/* Project Link Wrapper */
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    height: 100%;
+}
+
+.project-link:hover .card {
+    transform: translateY(-8px);
+    border-color: var(--accent-color);
+}

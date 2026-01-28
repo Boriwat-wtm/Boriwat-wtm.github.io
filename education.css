@@ -1,0 +1,125 @@
+/* Education Section */
+#education {
+    background: rgba(30, 41, 59, 0.3);
+}
+
+#education .section-title {
+    text-align: center;
+    margin-bottom: 3rem;
+}
+
+.education-timeline {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+.education-item {
+    display: flex;
+    gap: 1.5rem;
+    position: relative;
+}
+
+.education-icon {
+    flex-shrink: 0;
+    width: 60px;
+    height: 60px;
+    background: linear-gradient(135deg, rgba(88, 166, 255, 0.2), rgba(147, 112, 219, 0.2));
+    border: 2px solid var(--accent-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: var(--accent-color);
+}
+
+.education-content {
+    flex: 1;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    padding: 1.5rem 2rem;
+    transition: var(--transition);
+}
+
+.education-content:hover {
+    border-color: var(--accent-color);
+    transform: translateX(8px);
+    box-shadow: 0 10px 30px rgba(88, 166, 255, 0.2);
+}
+
+.education-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 0.8rem;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.education-header h3 {
+    margin: 0;
+    color: var(--text-primary);
+    font-size: 1.3rem;
+}
+
+.education-date {
+    color: var(--accent-color);
+    font-weight: 600;
+    font-size: 0.9rem;
+    white-space: nowrap;
+}
+
+.education-content h4 {
+    margin: 0 0 0.8rem 0;
+    color: var(--accent-color);
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.education-institution,
+.education-school {
+    margin: 0.3rem 0;
+    color: var(--text-secondary);
+    font-size: 1rem;
+}
+
+.education-gpa {
+    margin: 0.8rem 0 0 0;
+    color: var(--text-secondary);
+    font-size: 0.95rem;
+}
+
+.education-gpa strong {
+    color: var(--accent-color);
+    font-size: 1.1rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .education-item {
+        gap: 1rem;
+    }
+
+    .education-icon {
+        width: 50px;
+        height: 50px;
+        font-size: 1.2rem;
+    }
+
+    .education-content {
+        padding: 1rem 1.5rem;
+    }
+
+    .education-header {
+        flex-direction: column;
+        gap: 0.3rem;
+    }
+
+    .education-header h3 {
+        font-size: 1.1rem;
+    }
+}
