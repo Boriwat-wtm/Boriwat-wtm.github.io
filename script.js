@@ -6,7 +6,7 @@ const translations = {
         nav_projects: "ผลงาน",
         nav_contact: "ติดต่อ",
         hero_greeting: "สวัสดีครับ, ผมชื่อ",
-        hero_title: "บริวัฒน์ วงค์ต",
+        hero_title: "บริวัฒน์ วงค์ต๊ะมา",
         hero_subtitle: "นักศึกษา CS ปี 3 | Backend Dev",
         btn_projects: "ดูผลงาน",
         btn_resume: "ดาวน์โหลด Resume",
